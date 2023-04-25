@@ -1,0 +1,105 @@
+.main-page {
+  width: auto;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.intro {
+  margin-left: 2rem;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.hello {
+  margin-bottom: auto;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #eee;
+  font-family: poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.whatcha {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: #ddd;
+  font-family: poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.story {
+  position: absolute;
+  left: 4%;
+  top: 4%;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+
+.purple-class {
+  position: relative;
+  background-color: #a8a8ff;
+  height: 3.85rem;
+  width: 3.85rem;
+  border-radius: 50%;
+}
+
+.stories {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 15px;
+}
+
+.itext {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #ddd;
+  font-family: poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 20rem;
+}
+
+.mygradient {
+  position: absolute;
+  margin-top: 2rem;
+  height: 9rem;
+  width: 20rem;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  border-radius: 1rem;
+  top: 15%;
+}
+
+.likes {
+  position: absolute;
+  top: 77.8%;
+  left: 85%;
+  z-index: 8;
+  height: 2rem;
+  width: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 1rem;
+}
+
+.mywrapper {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  position: relative;
+  background: linear-gradient(to right, rgb(123, 116, 116), #2f2c2c);
+  height: 13rem;
+  width: 20rem;
+  border-radius: 1rem;
+  border: #fff 1px solid;
+}
+
+.plus {
+  position: absolute;
+  top: 3.5rem;
+  left: 4.5rem;
+}
